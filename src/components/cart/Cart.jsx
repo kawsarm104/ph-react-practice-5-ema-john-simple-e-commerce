@@ -16,7 +16,7 @@ const Cart = (props) => {
         totalQuantity = totalQuantity+product.quantity
     }
     return (
-        <div>
+        <div className="cart">
                <h2>Order Summary</h2>
             <h3>Items Ordered: {totalQuantity}</h3>
             <h4>Total Price: ${total.toFixed(2)}</h4>
