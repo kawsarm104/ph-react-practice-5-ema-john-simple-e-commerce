@@ -8,3 +8,15 @@
     margin-right: 10px;
     margin-left: 150px;
 }
+.search-container{
+    background-color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+    padding: 10px;
+    
+}
+.search-container input{
+   width: 50%;
+   border-radius: 15px;
+   padding:10px;
+
+}
